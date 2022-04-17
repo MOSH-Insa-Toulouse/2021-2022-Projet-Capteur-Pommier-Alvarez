@@ -35,7 +35,7 @@ L'étape suivante a été le placement des composants sur le PCB et la connexion
 Après l'étape de réalisation du PCB avec le logiciel KiCAD est venue l'étape de réalisation physique de celui-ci. C'est avec l'aide de Madame Crouzet que cela a été possible.
 Enfin, le PCB a été percé avec des trous de 1mm de diamètre pour les pins de
 l'Arduino et 0,8mm de diamètre pour les autres.
-Les détails du PCB et du Schematic se trouvent dans le dossier [KiCAD] 
+Les détails du PCB et du Schematic se trouvent dans le dossier [KiCAD](https://github.com/MOSH-Insa-Toulouse/2021-2022-Projet-Capteur-Pommier-Alvarez/tree/main/Kicad) 
 
 ## Application
 
