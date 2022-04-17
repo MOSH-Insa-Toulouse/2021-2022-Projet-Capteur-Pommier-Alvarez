@@ -1,3 +1,9 @@
+//////////Définition des bibliotheques//////////
+//#include <Adafruit_CircuitPlayground.h>
+#include <Adafruit_SSD1306.h>
+
+///// Definition des variables/////
+/***Debouncing***/ 
 const int Switch=5;
 const int ledPin=13;
 
@@ -10,27 +16,27 @@ int compteur_non_filtre;
 long lastDebounceTime=0;
 long debounceDelay=50;
 
-//#include <Adafruit_CircuitPlayground.h>
-
-#define encoder0pinA 3
-#define encoder0pinB 4
-#define Switch 5
-
+/***OLED***/
 volatile unsigned int encoder0pos=0;
 int Switchstate=0;
+byte dir = 0;
+int compteurSwitch=0;
 
+
+///////// Definition des pins///////
+/***encodeur***/
+#define encoder0pinA 3 // CLK
+#define encoder0pinB 4 // DATA
+#define Switch 5 // SWITCH
+
+/***OLED***/
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 #define OLED_RESET -1
 
-
-#include <Adafruit_SSD1306.h>
 Adafruit_SSD1306 ecranOLED(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-byte dir = 0;
-
-int compteurSwitch=0;
-
+//////// Programme principal////////
 
 void setup() {
 
@@ -73,14 +79,14 @@ void setup() {
 
 void loop() {
   ecranOLED.clearDisplay();
-  Serial.print("Position:");
-  Serial.println(encoder0pos, DEC);
+//  Serial.print("Position:");
+//  Serial.println(encoder0pos, DEC);
 
   double voltage;
   double resistance;
-  voltage=analogRead(A0);
-  Serial.println("la valeur de ADC "+ String(voltage*5/1023)+ " Volts");
-  resistance=(1+100000/1000)*100000*(1023/voltage)-100000-10000;
+  voltage=analogRead(A0); // recupere la valeur en sortie 
+  Serial.println("la valeur de ADC "+ String(voltage*5/1023)+ " Volts"); // permet de convertir la valeur en sortie de l'arduino en tension réelle
+  resistance=(1+100000/1000)*100000*(1023/voltage)-100000-10000; // calcul de la resistance à partir de la tension (voir LTSPICE) 
  
   
   // etat bouton encodeur
@@ -146,6 +152,9 @@ void loop() {
     Serial.print(",");
     Serial.println(compteur_filtre);
 }
+
+
+/////// Definir les fonctions///////
 
 void doEncoder() {
   if (digitalRead(encoder0pinA) == HIGH) {
