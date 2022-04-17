@@ -6,10 +6,16 @@ Dans le cadre de l’unité de formation « Du capteur et banc de test » de l�
 
 Afin de mener ce projet à bien tout en respectant l’esprit de autour de ce capteur (Low tech, low cost et transportable), nous avons utilisé une carte Arduino Uno, un PCB, et différents composants détaillés par la suite.
 
+## Table des matières
+* [Livrables](#livrables)
+
+
+<div id='livrables'/>
+
 ## Livrables
 
 Les livrables à l’issu de ce projet sont:
-* Un rapport sur me circuit analogique à l'aide du logiciel LTSpice
+* Un rapport sur le circuit analogique à l'aide du logiciel LTSpice
 * Un PCB Shield
 * Un code Arduino permettant de collecter et transférer les données du capteur soit
 sur un oled soit à un module bluetooth connecté à un Android.
