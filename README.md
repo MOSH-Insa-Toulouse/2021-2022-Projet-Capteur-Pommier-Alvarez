@@ -9,6 +9,7 @@ Afin de mener ce projet à bien tout en respectant l’esprit de autour de ce ca
 ## Table des matières
 * [Livrables](#livrables)
 * [Composants](#comp)
+* [LTSpice](#spice)
 * [PCB Shield](#pcb)
 * [Application](#apk)
 * [Arduino](#ard)
@@ -43,6 +44,12 @@ Les composants pour la réalisation du circuit analogique sont les suivants :
 * R4 : Capteur papier
 * Résistances: 100kOhms (x2), 1kOhms(x2), 10kOhms
 * Capacités: 100nF(x3), 1uF
+
+<div id='spice'/>
+
+## LTSpice
+
+Le rapport sur le circuit analogique se trouve dans le dossier [LTSpice](https://github.com/MOSH-Insa-Toulouse/2021-2022-Projet-Capteur-Pommier-Alvarez/tree/main/LTSPICE)
 
 <div id='pcb'/>
 
