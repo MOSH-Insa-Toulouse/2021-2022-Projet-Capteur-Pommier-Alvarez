@@ -31,7 +31,7 @@ SoftwareSerial mySerial(rxpin,txpin);
 /**Bluetooth***/
 unsigned long temps_ref;
 
-/***oled***/
+/***oled et debouncing***/
 const int ledPin=13;
 int ledState=HIGH;
 int buttonState;
