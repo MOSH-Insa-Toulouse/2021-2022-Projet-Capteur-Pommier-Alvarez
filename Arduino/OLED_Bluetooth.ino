@@ -108,8 +108,8 @@ void loop() {
 
   double voltage;
   double resistance;
-  voltage=analogRead(A0);
-  resistance=(1+100000/1000)*100000*(1023/voltage)-100000-10000;
+  voltage=analogRead(A0); // recupere la valeur en sortie 
+  resistance=(1+100000/1000)*100000*(1023/voltage)-100000-10000; // calcul de la resistance à partir de la tension (voir LTSPICE)
   
 //Bluetooth
   if (abs(millis()-temps_ref) > Periode)
