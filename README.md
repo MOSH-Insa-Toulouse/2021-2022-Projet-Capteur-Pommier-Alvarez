@@ -50,6 +50,8 @@ Les composants pour la réalisation du circuit analogique sont les suivants :
 
 La première étape dans la création du PCB a été la création du Schematic sur le logiciel KiCAD. Nous devions créer chacun des composants et déterminer à quels pin de l'Arduino étaient connectés chacun ds pins des composants.
 
+![Shematic](https://github.com/MOSH-Insa-Toulouse/2021-2022-Projet-Capteur-Pommier-Alvarez/blob/main/Kicad/Sch%C3%A9matique.png)
+
 L'étape suivante a été le placement des composants sur le PCB et la connexion entre chaque pin et finalement, la représentation 3D des composants pour s'assurer qu'aucun ne se chevauchaient.
 
 ![routage](https://github.com/MOSH-Insa-Toulouse/2021-2022-Projet-Capteur-Pommier-Alvarez/blob/main/Kicad/routage.png)
@@ -70,6 +72,11 @@ Les informations envoyées par le module bluetooth sont récupérées sur une ap
 Notre application se compose de trois écrans différents. Le premier est une page de garde qui permet d'accéder aux deux autres écrans, soit un écran d'informations générales sur le fonctionnement du capteur soit un écran qui permet la connexion bluetooth et la visualisation des données reçues.
 Sur ce dernier la valeur de la résistance est affichée dans une zone texte et tracée au et à mesure sur un graphique.
 
+Voici l'ecran avec le graphique:
+
+![graph](https://github.com/MOSH-Insa-Toulouse/2021-2022-Projet-Capteur-Pommier-Alvarez/blob/main/APK/page_graphique.png)
+
+
 Les photos et le code de l'application se trouvent dans le dossier [APK](https://github.com/MOSH-Insa-Toulouse/2021-2022-Projet-Capteur-Pommier-Alvarez/tree/main/APK)
 
 <div id='ard'/>
@@ -87,6 +94,8 @@ Les informations relatives au code se trouvent dans le dossier Arduino
 
 Afin de pouvoir rédiger notre datasheet mais également de pouvoir connaître la répétabilité de la mesure avec un seul capteur nous avions besoin d'un banc de test. Celui-ci fut réalisé en collaboration avec le groupe de Louis-Maxence Hotton et Thalia Lamy.
 Notre banc de test est composé d'un servo-moteur et de pièces recyclées (papier et carton recyclés). Un code Arduino permet de piloter celui-ci et de faire une rotation de 0° à 90°. Afin d'avoir les valeurs en compression et dilatation nous avons retourné le capteur.
+
+![banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022-Projet-Capteur-Pommier-Alvarez/blob/main/Banc_de_test/banc_de_test4.JPG)
 
 Les photos du banc de test sont dans le dossier [banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022-Projet-Capteur-Pommier-Alvarez/tree/main/Banc_de_test) et le code associé dans le dossier Arduino
 
