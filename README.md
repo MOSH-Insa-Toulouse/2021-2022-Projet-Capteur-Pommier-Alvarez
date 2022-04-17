@@ -86,7 +86,7 @@ Les photos et le code de l'application se trouvent dans le dossier [APK](https:/
 Afin que tout cela soit possible et fonctionnel nous devions écrire un code Arduino. Celui-ci permet de récupérer les valeurs de la résistances, se connecter au module bluetooth avec un téléphone et les envoyer par la suite. Il permet également de visualiser ces valeur sur un écran OLED constitué de trois menus différents pilotés par l'encodeur rotatif. Ces trois menus sont une page de présentation, une page d'informations et une page avec les valeurs.
 Un autre code fut nécéssaire pour pouvoir gérer notre banc de test, celui-ci sera expliqué dans la partie suivante.
 
-Les informations relatives au code se trouvent dans le dossier Arduino
+Les informations relatives au code se trouvent dans le dossier [Arduino](https://github.com/MOSH-Insa-Toulouse/2021-2022-Projet-Capteur-Pommier-Alvarez/tree/main/Arduino).
 
 <div id='banc'/>
 
