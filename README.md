@@ -62,4 +62,11 @@ Les données de la datasheet ont été mesurées à l'aide du banc de test décr
 Nous avons testé avec un crayon 6B mais notre programme nous annonçait un overload.
 Nous avons estimé la répétabilité de l'expérience à 10 mesures par capteur (papier) soit 5 en compression suivies de 5 en dilatation car après cela les valeurs nous semblaient moins cohérentes avec les premières séries.
 La datasheet se trouve dans le dossier datasheet.
+
 Améliorations
+
+L'utilisation du banc de test a nécessité deux cartes Arduino Uno. Il aurait fallu intégrer le servo moteur sur le KiCAD pour pouvoir le mettre sur le PCB et ainsi le faire fonctionner avec une seule carte et un seul programme.
+
+Comme améliorations pour les valeurs de la datasheet, peut être faudrait-il utiliser plusieurs capteurs avec le même crayon (par exemple HB), faire les 10 séries de mesures et faire la moyenne sur toutes les séries des différents capteurs.
+
+On peut également penser pour l'application à l'affichage d'un message pour signaler que la connexion bluetooth s'est effectuée.
