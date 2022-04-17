@@ -52,7 +52,7 @@ La première étape dans la création du PCB a été la création du Schematic s
 
 L'étape suivante a été le placement des composants sur le PCB et la connexion entre chaque pin et finalement, la représentation 3D des composants pour s'assurer qu'aucun ne se chevauchaient.
 
-[routage](https://github.com/MOSH-Insa-Toulouse/2021-2022-Projet-Capteur-Pommier-Alvarez/blob/main/Kicad/routage.png)
+![routage](https://github.com/MOSH-Insa-Toulouse/2021-2022-Projet-Capteur-Pommier-Alvarez/blob/main/Kicad/routage.png)
 
 Après l'étape de réalisation du PCB avec le logiciel KiCAD est venue l'étape de réalisation physique de celui-ci. C'est avec l'aide de Madame Crouzet que cela a été possible.
 
