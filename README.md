@@ -4,7 +4,7 @@
 
 Dans le cadre de l’unité de formation « Du capteur et banc de test » de l’année scolaire 2021-2022 en quatrième année de Génie Physique à l’INSA Toulouse, nous devions réaliser une jauge de contrainte à base de graphite.
 
-Afin de mener ce projet à bien tout en respectant l’esprit de autour de ce capteur (Low tech, low cost et transportable), nous avons utilisé une carte Arduino Uno, un PCB, et différents composants détaillés par la suite.
+Afin de mener ce projet à bien tout en respectant l’esprit autour de ce capteur (Low tech, low cost et transportable), nous avons utilisé une carte Arduino Uno, un PCB, et différents composants détaillés par la suite.
 
 ## Table des matières
 * [Livrables](#livrables)
